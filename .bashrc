@@ -108,3 +108,5 @@ source /usr/local/bin/virtualenvwrapper.sh
 export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--no-site-packages --distribute'
 export PROJECT_HOME="$HOME/pythonprojects"
 alias managedjango='python $PYTHON_PROJECT_DIR/manage.py'
+
+alias git=hub
