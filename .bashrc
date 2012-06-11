@@ -110,3 +110,7 @@ export PROJECT_HOME="$HOME/pythonprojects"
 alias managedjango='python $PYTHON_PROJECT_DIR/manage.py'
 
 alias git=hub
+
+#PythonBrew
+[[ -s "$HOME/.pythonbrew/etc/bashrc" ]] && source "$HOME/.pythonbrew/etc/bashrc"
+
