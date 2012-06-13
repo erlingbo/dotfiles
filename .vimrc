@@ -22,8 +22,8 @@ set softtabstop=4               " How many columns to insert when pressing Tab-k
 set tabstop=4                   " Number of coloumns to indent
 set expandtab                   " Set spaces instead of <tab>
 set wrap                        " Text wrapping on
-set textwidth=79                " Wrap words by default
-set colorcolumn=80              " Color long lines
+set textwidth=109                " Wrap words by default
+set colorcolumn=110              " Color long lines
 set formatoptions=qrn1          " When to wrap text, and how
 set modelines=0                 " Dont use modelines, disable to prevent security issues
 set nocompatible                " Use Vim defaults instead of vi compatibility
