@@ -12,6 +12,8 @@ Dependencies
 Nice to have
 ------------
 * python-docutils (rst2html)
+* pyflakes (used in vim with syntastic).
+    - configurable to other lint tool. E.g. pylint
 
 Thanks to
 ---------
