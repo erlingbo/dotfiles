@@ -5,3 +5,6 @@
 	editor = vim
 [alias]
 	st = status
+    unpushed = log --branches --not --remotes
+[cola]
+	tabwidth = 4
