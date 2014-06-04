@@ -48,6 +48,7 @@ set visualbell                  " Blink, no sound
 set pastetoggle=<F2>            " Press F2 to enter paste mode
 set errorformat=%f:%l:\ %m      "
 set number                      " Show line numbers
+set norelativenumber            " Use absolute line numbers
 
 set autowrite                   " Save before :make, :suspend, etc
 "set noerrorbells                " Stop beeping!
