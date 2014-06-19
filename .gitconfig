@@ -8,3 +8,5 @@
     unpushed = log --branches --not --remotes
 [cola]
 	tabwidth = 4
+[push]
+	default = simple
