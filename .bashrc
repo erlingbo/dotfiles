@@ -114,7 +114,6 @@ if ! shopt -oq posix; then
 fi
 
 export WORKON_HOME="$HOME/.virtualenvs"
-source /usr/local/bin/virtualenvwrapper.sh
 
 export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--no-site-packages --distribute'
 export PROJECT_HOME="$HOME/pythonprojects"
