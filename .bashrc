@@ -128,3 +128,19 @@ alias git=hub
 if [[ "$COLORTERM" == "gnome-terminal" ]]; then
     export TERM=xterm-256color
 fi
+
+__OLD_PATH=$PATH
+function updatePATHForNPM() {
+  export PATH=$(npm bin):$__OLD_PATH
+}
+
+function node-mode() {
+  PROMPT_COMMAND=updatePATHForNPM
+}
+
+function node-mode-off() {
+  unset PROMPT_COMMAND
+  PATH=$__OLD_PATH
+}
+
+# node-mode  # Uncomment to enable node-mode by default
