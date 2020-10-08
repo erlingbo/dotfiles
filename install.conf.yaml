@@ -1,0 +1,22 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- shell:
+    - [git submodule update --init --recursive, Installing submodules]
+    -
+      command: chsh -s $(which zsh)
+      stdin: true
+      stdout: true
+      stderr: true
+      description: 222Making zsh the default shell
+
+- link:
+    ~/.zshrc:
+    ~/.gitconfig: git/gitconfig
+    ~/.vim: vim/dotvim 
+    ~/.vimrc: vim/vimrc
+    ~/.oh-my-zsh: ohmyzsh
+

@@ -1,18 +1,28 @@
-[submodule ".vim/bundle/badwolf"]
-	path = .vim/bundle/badwolf
-	url = git://github.com/sjl/badwolf.git
-[submodule ".vim/bundle/gundo"]
-	path = .vim/bundle/gundo
-	url = http://github.com/sjl/gundo.vim.git
-[submodule ".vim/bundle/nerdtree"]
-	path = .vim/bundle/nerdtree
-	url = git://github.com/scrooloose/nerdtree.git
-[submodule ".vim/bundle/powerline"]
-	path = .vim/bundle/powerline
-	url = git://github.com/Lokaltog/vim-powerline.git
-[submodule ".vim/bundle/syntastic"]
-	path = .vim/bundle/syntastic
-	url = git://github.com/scrooloose/syntastic.git
-[submodule ".vim/bundle/molokai"]
-	path = .vim/bundle/molokai
+[submodule "dotbot"]
+	path = dotbot
+	url = https://github.com/anishathalye/dotbot
+	ignore = dirty
+[submodule "ohmyzsh"]
+	path = ohmyzsh
+	url = https://github.com/ohmyzsh/ohmyzsh
+[submodule "vim/dotvim/bundle/molokaigit"]
+	path = vim/dotvim/bundle/molokaigit
 	url = git://github.com/tomasr/molokai.git
+[submodule "vim/dotvim/bundle/syntastic"]
+	path = vim/dotvim/bundle/syntastic
+	url = git://github.com/scrooloose/syntastic.git
+[submodule "vim/dotvim/bundle/powerline"]
+	path = vim/dotvim/bundle/powerline
+	url = git://github.com/Lokaltog/vim-powerline.git
+[submodule "vim/dotvim/bundle/badwolf"]
+	path = vim/dotvim/bundle/badwolf
+	url = git://github.com/sjl/badwolf.git
+[submodule "vim/dotvim/bundle/gundo"]
+	path = vim/dotvim/bundle/gundo
+	url = http://github.com/sjl/gundo.vim.git
+[submodule "vim/dotvim/bundle/molokai"]
+	path = vim/dotvim/bundle/molokai
+	url = git://github.com/tomasr/molokai.git
+[submodule "vim/dotvim/bundle/nerdtree"]
+	path = vim/dotvim/bundle/nerdtree
+	url = git://github.com/scrooloose/nerdtree.git
